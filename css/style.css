@@ -1,0 +1,387 @@
+
+body
+{
+    background-color: #eee;
+}
+
+.container
+{
+    width: 1170px;
+    margin: auto
+}
+
+.clearfix{
+    clear: both
+}
+/* Start header*/
+
+.header .slider{
+    background-image:url('../images/company-through-digital-transformation-bg-1-1170x600.jpg');
+    background-size: cover;
+    height: 400px
+}
+.header .slider .intro{
+    color: white;
+    text-align: center;
+    padding-top: 130px
+}
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    padding: 5px 0
+}
+
+.header .slider .intro button{
+    background: none;
+    width: 150px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 10px 20px
+}
+.header .navbar{
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden
+}
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase
+}
+.header .navbar h2 span{color:forestgreen}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right
+}
+.header .navbar ul li{
+    float: left ;
+    padding:  10px
+}
+.header .navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+    color: forestgreen
+}
+
+/* End header */
+
+/* Start Features*/
+.features{
+    overflow: hidden;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px
+}
+
+.features .feat {
+    width: 33.3333%;
+    float: left
+}
+.features .feat h2{
+    text-transform: capitalize;
+    color: #444
+}
+.features .feat p{
+    line-height: 1.5;
+    color: #666;
+    
+}
+/* End Features */
+
+
+/* Start About me */
+.about_me {
+    background-color: #f2f2f2;
+    overflow: hidden
+    
+}
+
+.about_me .image{
+    float: left;
+    width:40%
+}
+
+.about_me .image img { width: 100%}
+.about_me .info {
+    float: left;
+    width : 60%
+}
+.about_me .info h2{
+    margin: 40px 0 40px 40px
+}
+.about_me .info >p{
+    margin: 0 0 10px 40px;
+    line-height: 1.5
+}
+.about_me .info .hobbies{
+    margin:50px 0 10px 40px;
+    overflow: hidden
+}
+.about_me .info .hobbies h3{
+    margin:20px 0 10px 40px
+}
+.about_me .info .hobbies p{
+    margin: 10px 0 10px 40px;
+    line-height: 1.5
+}
+.about_me .info .hobbies >div{
+    overflow: hidden;
+    float: left;
+    width: 50%
+}
+/* End About me */
+
+/* start my skills */
+.my-skills{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden
+    
+}
+form{
+    margin-top: 20px;;
+}
+form label{
+    margin-top:20px;
+}
+.my-skills .skills,
+.my-skills .progress{
+    float: left;
+    width: 50%
+}
+/* end my skills */
+
+/* start my resume */
+.resume{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+/* end my resume */
+
+/* start my education */
+.my-education{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden
+    
+}
+.my-education .main,
+.my-education .exp{
+    float: left;
+    width: 50%
+}
+/* end my education */
+
+/* start my testemonial */
+.testemonial{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+/* end my testemonial */
+
+/* start my portofio */
+.portofio{
+    overflow: hidden;
+    background-color: white
+}
+
+.portofio .protfolio-de{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+.portofio .our-work img{
+    width: 30%;
+    float: left;
+    padding: 10px
+}
+
+/* end my portofio */
+
+/* start contact me */
+.contact{
+    background-color:dimgrey;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden
+}
+
+.contact .contact-info,
+.contact .contact-form{
+    width: 45% ;
+    float: left;
+    
+}
+
+/* end contact me */
+
+/* start footer */
+
+.footer{
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/* end footer */
+html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+#cv {
+	width: 90%;
+	max-width: 800px;
+	background: #f3f3f3;
+	margin: 30px auto;
+}
+
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 2px solid forestgreen;
+	background: #ededed;
+}
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: right;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	color: #444; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+#contactDetails ul li a:hover { 
+	color: forestgreen;
+}
+
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.sectionTitle {
+	float: left;
+	width: 25%;
+}
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+}
+
+.sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: forestgreen;
+}
+
+.sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+.keySkills {
+	list-style-type: none;
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+}
+
+.keySkills ul li {
+	margin-bottom: 3px;
+}
+
