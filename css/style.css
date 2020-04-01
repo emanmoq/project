@@ -407,3 +407,13 @@ section:last-child {
 	margin-bottom: 3px;
 }
 
+.videoContainer{
+    width:60%;
+    margin:auto;
+}
+.videoContainer h2{
+    margin-bottom:20px;
+}
+.videoContainer img{
+    width:100%;
+}
