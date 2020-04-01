@@ -417,3 +417,16 @@ section:last-child {
 .videoContainer img{
     width:100%;
 }
+.courseWork h2{
+ color:forestgreen;
+}
+.courseWorkSection{
+    border-bottom:1px solid forestgreen;
+    padding:10px;
+}
+.courseWorkSection a{
+    display:block
+}
+.courseWorkSection img{
+    width:30%;
+}
