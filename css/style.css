@@ -4,6 +4,24 @@ body
     background-color: #eee;
 }
 
+ul{
+    list-style-type: none;
+
+}
+.Menu{
+    margin-top:20px;
+}
+.Menu li{
+display: inline-block;
+}
+a{
+    text-decoration:none;
+}
+.nav-link{
+    color:black;
+    padding:20px;
+
+}
 .report{
     background-color:white ;
 
